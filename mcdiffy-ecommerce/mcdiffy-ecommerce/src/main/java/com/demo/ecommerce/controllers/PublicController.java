@@ -21,7 +21,7 @@ import com.demo.ecommerce.models.JwtRequest;
 import com.demo.ecommerce.models.Product;
 import com.demo.ecommerce.models.User;
 import com.demo.ecommerce.repo.ProductRepo;
-import com.demo.ecommerce.services.UserAuthService;
+import com.demo.ecommerce.service.UserAuthService;
 
 @RestController
 @RequestMapping("/api/public")

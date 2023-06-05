@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 import com.demo.ecommerce.models.User;
-import com.demo.ecommerce.services.UserAuthService;
+import com.demo.ecommerce.service.UserAuthService;
 
 /*
  * This class will contain

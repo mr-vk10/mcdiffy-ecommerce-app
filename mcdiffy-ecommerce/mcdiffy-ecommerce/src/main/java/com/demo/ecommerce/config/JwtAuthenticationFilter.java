@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.demo.ecommerce.models.User;
-import com.demo.ecommerce.services.UserAuthService;
+import com.demo.ecommerce.service.UserAuthService;
 
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {

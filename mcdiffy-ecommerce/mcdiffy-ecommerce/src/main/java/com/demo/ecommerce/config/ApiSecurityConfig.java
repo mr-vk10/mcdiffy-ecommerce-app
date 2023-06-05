@@ -20,7 +20,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.demo.ecommerce.services.UserAuthService;
+import com.demo.ecommerce.service.UserAuthService;
 
 @Configuration
 @EnableWebSecurity
